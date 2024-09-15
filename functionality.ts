@@ -1,12 +1,9 @@
-let meu=document.querySelector("#mobile-menu");
-let meulist=document.querySelector(".navbar__menu");
+const mobileMenu = document.getElementById("mobile-menu");
+const navbarMenu = document.querySelector(".navbar__menu") as HTMLElement;
 
-//display mobile menu
-
-const meumob=()=>{
-     meu?.classList.toggle("is-active")
-     meulist?.classList.toggle("active")
+if (mobileMenu) {
+  mobileMenu.addEventListener("click", () => {
+    mobileMenu.classList.toggle("is-active");
+    navbarMenu.classList.toggle("active");
+  });
 }
-
-meu?.addEventListener("click", meumob)
-  

@@ -1,11 +1,8 @@
-let meu=document.querySelector("#mobile-menu");
-let meulist=document.querySelector(".navbar__menu");
-
-//display mobile menu
-
-const meumob=()=>{
-     meu?.classList.toggle("is-active")
-     meulist?.classList.toggle("active")
+var mobileMenu = document.getElementById("mobile-menu");
+var navbarMenu = document.querySelector(".navbar__menu");
+if (mobileMenu) {
+    mobileMenu.addEventListener("click", function () {
+        mobileMenu.classList.toggle("is-active");
+        navbarMenu.classList.toggle("active");
+    });
 }
-
-meu?.addEventListener("click",meumob)

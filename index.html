@@ -6,12 +6,13 @@
      <title>My Resume</title>
      <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 </head>
 <body>
-      navbar section
       <nav class="navbar">
           <div class="navbar__container">
-               <a href="#home" id="navbar__logo">MARYAM HUSSAIN</a>
+               <a href="#home" id="navbar__logo">My Portfolio</a>
                <div class="navbar__toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -19,16 +20,18 @@
                </div>
                <ul class="navbar__menu">
                     <li class="navbar__item">
-                         <a href="#about" class="navbar__links" id="about-page">ABOUT</a>
-                    </li>
+<a href="#home" id="home-page" class="navbar__links">Home</a>
+</li>
+<li class="navbar__item">
                     <li class="navbar__item">
-                         <a href="#education" class="navbar__links" id="education-page">EDUCATION</a>
+                         <a href="#education" class="navbar__links" id="education-page">Education</a>
                     </li>
                          <li class="navbar__item">
-                              <a href="#skills" class="navbar__links" id="skills-page">SKILLS</a>
+                              <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
                          </li>
+
                          <li class="navbar__btn">
-                              <a href="#connect-with-me" class="button" id="connectwithme">CONNECT WITH ME</a>
+                              <a href="#contact" class="button" id="connectwithme">Contact Me</a>
                          </li>
                </ul>
           </div>
@@ -39,12 +42,29 @@
       <div class="hero" id="home">
           <div class="hero__container">
                <h1 class="hero__heading">Hi! I am <span>Maryam Hussain</span> </h1>
-               <p class="hero__description">Jr.Graphic Designer</p>
+               <p class="hero__description">Jr.Graphic Designer And Web Developer.</p>
                <button class="main__btn">
                     <a href="#about">Learn More About Me</a>
                </button>
+
+<br>
+<div class="footer__socials">
+           
+            <ul class="footer__social-links">
+                <li><a href="https://www.linkedin.com/in/maryam-hussain" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/maryamhussain" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:maryamghayyas2005@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+923148879684"><i class="fas fa-phone"></i></a></li>
+            </ul>
+        </div>
+
+<br>
+                    <a href="assets/Maryam Cv.pdf" download="Maryam Cv.pdf" class="download-btn">Download My Cv</a>
+               
           </div>
       </div>
+
+ </div>
 
       <!--about section-->
       <div class="main" id="about">
@@ -54,7 +74,7 @@
                     
                </div>
                <div class="main__content">
-                    <h1>Introduction</h1>
+                    <h1>About Me</h1>
                     <!-- <h1>WE HELP BUSSINESSES SCALE</h1> -->
                     <p>I am a passionate graphic designer
                          specializing in branding, logo design, and
@@ -65,91 +85,40 @@
                          through different platforms, mastering tools
                          like Photoshop and Illustrator</p>
                     <button class="main__btn">
-                         <a href="#designphilosophy">My Design Philosophy</a>
+                         <a href="#education">Education</a>
                     </button>
                </div>
           </div>
       </div>
-      <!--design philosophy-->
-      <div class="main" id="designphilosophy">
-          <div class="main__container">
-               <div class="main__img--container">
-<img src="assets/undraw_visualization_re_1kag.svg" alt="pic">
-                    
-               </div>
-               <div class="main__content">
-                    <h1>My Design Philosophy</h1>
-                    <!-- <h1>WE HELP BUSSINESSES SCALE</h1> -->
-                    <p>My design philosophy is rooted in creating
-                         purposeful, impactful visuals that resonate
-                         with audiences. I believe design goes beyond
-                         aesthetics—it's about solving problems and
-                         telling stories in a way that engages and
-                         inspires. By blending vibrant visuals with
-                         strategic thinking, I ensure every design not
-                         only looks great but also serves a meaningful
-                         purpose, driving results and fostering
-                         connections.</p>
-                    <button class="main__btn">
-                         <a href="#whatido">What I Do?</a>
-                    </button>
-               </div>
-          </div>
-      </div>
-      <!--what i do-->
-      <div class="main" id="whatido">
-          <div class="main__container">
-               <div class="main__img--container">
-                    <img src="assets/undraw_development_re_g5hq.svg" alt="">
-               </div>
-               <div class="main__content">
-                    <h1>What I Do?</h1>
-                    <h1>Branding & Identity Design</h1>
-                    <p>I craft unique and cohesive brand
-                         identities that stand out and
-                         resonate with your audience.</p>
-                         <h1>Digital Marketing Graphics</h1>
-                    <p>I create engaging social media
-                         posts, banners, and digital marketing
-                         materials that boost your online
-                         presence.</p>
-                         <h1>Print Design</h1>
-                    <p>From business cards to brochures, I
-                         design professional print materials that
-                         effectively communicate your
-                         message.</p>
-                         <h1>Logo Design</h1>
-                         <p>I design logos that are visually
-                              appealing, meaningful, and versatile,
-                              making a strong first impression.</p>
-                    <button class="main__btn">
-                         <a href="#">What I Do?</a>
-                    </button>
-               </div>
-          </div>
-      </div>
+
 <!--education-->
+
       <div class="main" id="education">
           <div class="main__container">
                <div class="main__img--container">
                     <img src="assets/undraw_education_f8ru.svg" alt="pic">
                </div>
                <div class="main__content">
-                    <!--<h1>What I Do?</h1>-->
+                    
                     <h1>education</h1>
-                    <p><ul></ul>
-                <li>Bachelor in Computer Science (Ongoing)</li>
+                    <p><ul>
+<li>Matriculation - GLR School </li>
+<li>Intermediate - GCFW</li>
+                <li>Bachelor in Computer Science (Ongoing) - Virtual University</li>
                 <li>Graphic Design Course - DigiSkills Pakistan (2023)</li>
+<li>Canva Design Course - Hadi-E-Learning</li>
+<li>Digital Marketing Course - BBSHRRDB Pakistan </li>
+<li>CIT - Al khidmat Pakistan</li>
+<li>AI ,Metaverse And Web 3.0 (Ongoing).
+ - GIAIWMD</li>
             </ul></p>
                     <button class="main__btn">
-                         <a href="#">What I Do?</a>
+                         <a href="#skills">SKILLS</a>
                     </button>
                </div>
           </div>
       </div>
-     
 
-                    
 <!--skills-->
       <div class="main" id="skills">
           <div class="main__container">
@@ -160,9 +129,14 @@
                     <!--<h2>Skills</h2>-->
                     <h1>Skills</h1> 
                     <p><ul></ul>
-                <li>HTML, CSS, JavaScript, TypeScript</li>
-                <li>Adobe Photoshop, Illustrator</li>
-                <li>UI/UX Design, Branding</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fas fa-code"></i> TypeScript</li>
+                <li><i class="fas fa-pencil-ruler"></i> Adobe Photoshop</li>
+                <li><i class="fas fa-paint-brush"></i> Illustrator</li>
+
+                
             </ul></p>
                     <button class="main__btn">
                          <a href="#whatido">What I Do?</a>
@@ -170,38 +144,93 @@
                </div>
           </div>
       </div>
-<!--footer section-->
-<div class="main" id="about"></div>
+
+<!--services section-->
+<div class="services" id="whatido">
+<h1>See What I Do?</h1>
+
+<div class="services__container">
+<div class="services__card"><h2>Digital Marketing Graphics</h2>
+<p>I create engaging social media posts, banners, and digital marketing materials that boost your online presence.</p>
+<button class="main.btn"> <a href="digital-marketing.html">Learn More</a></button>
+
+</div>
+<div class="services__card"><h2>Logo Design</h2>
+<p>I design logos that are visually appealing, meaningful, and versatile, making a strong first impression.</p>
+<button class="main.btn"> <a href="logo-design.html">Learn More</a></button>
+
+</div>
+
+<div class="services__card"><h2>Print Design</h2>
+<p>From business cards to brochures, I design professional print materials that effectively communicate your message.</p>
+<button class="main.btn"> <a href="print-design.html">Learn More</a></button>
+
+</div>
+
+<div class="services__card"><h2>Branding & Identity Design</h2>
+<p>I craft unique and cohesive brand identities that stand out and resonate with your audience.</p>
+<button class="main.btn"> <a href="branding-identity.html">Learn More</a></button>
+
+</div>
+</div>
+</div>
+
+
+<!--contact section-->
+      <div class="main" id="contact">
           <div class="main__container">
-               <div class="main__img--container">
-<img src="assets/undraw_personal_email_re_4lx7.svg" alt="pic">
-                    <div class="footer__container"></div>
-<div class="footer__links">
-<div class="footer__link__wrapper">
-<div class="footer__link__items">
-<h2>CONTACT ME</h2>
-<p>
-<ul>
-<li><a href="/">03148879684
-</a></li>
-<li><a href="/">maryamghayyas2005@gmail.com</a></li></ul>
-<li><a href="/">maryamghayyas2005@gmail.com</a></li>
-<li><a href="/">@Maryam Hussain</a></li>
-<li><a href="/">how it works</a></li>
-<li><a href="/">how it works</a></li></ul>
-</p>
- <!-- Download Button -->
-    <div class="download-container">
-     <a href="assets/Maryam Cv.pdf" download="Maryam Cv.pdf" class="download-btn">
-         Download My Cv PDF
-     </a>
- </div>
-</div>
-</div>
-</div>
-</div>
-              
+               <div class="main__content">
+                    <h1>Send Me a Message</h1>
+                    
+<form action="submit_form.php" method="POST" class="contact-form"></form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+
+                <button type="submit" class="__btn">
+                    <a href="#">Send Message</a>
+                </button>
+            </form>
+<br><br>
+<button class="__btn">
+                    <a href="generateresume.html">Generate Your Resume Now</a>
+                </button>
+               </div>
+          </div>
+      </div>
+
+        
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__socials">
+            <h2>Connect with me</h2>
+            <ul class="footer__social-links">
+                <li><a href="https://www.linkedin.com/in/maryam-hussain" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/maryamhussain" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:maryamghayyas2005@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+923148879684"><i class="fas fa-phone"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer__info">
+            <p>&copy; 2024 Maryam Hussain | All rights reserved.</p>
+            <p>Email: <a href="mailto:maryamghayyas2005@gmail.com">maryamghayyas2005@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923148879684">+92 314 887 9684</a></p>
+        </div>
+    </div>
+</footer>
       <script src="functionality.js"></script>
 </body>
-</html>-->
-
+</html>
