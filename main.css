@@ -298,6 +298,7 @@
   text-decoration: none;
   font-size: 2rem;
   margin-bottom: 32px;
+justify-content: center;
 }
 
 .main__content h2 {
@@ -381,29 +382,38 @@
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 90%;
+    height: 0 auto;
   }
 
   .main__content {
     text-align: center;
     margin-bottom: 4rem;
+
   }
   .main__content h1 {
+justify-content: center;
+    text-align: center;
     font-size: 2.5rem;
     margin-top: 2rem;
   }
   .main__content h2 {
     font-size: 3rem;
+text-align: center;
+
   }
   .main__content p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
+text-align: center;
+ margin-top: 1rem;
+font-size: 1.5rem;
+position: relative;
   }
+.main__btn{
+position: relative;}
 }
 @media screen and (max-width:480px) {
   #main__img--container {
-    width: 10%;
-    height: 10%;
+    width: 10px;
+    height: 10px;
   }
 
   .main__content h1 {
@@ -561,24 +571,27 @@ a {
 }
 
 @media screen and (max-width: 960px) {
+
   .services {
-    height: 1600px;
+    height: auto;
   }
   .services h1 {
     font-size: 2rem;
     margin-top: 12rem;
   }
+
 }
 
 @media screen and (max-width: 480px) {
+
   .services {
-    height: 1400px;
+    height: auto;
   }
   .services h1 {
     font-size: 1.2rem;
   }
   .services__card {
-    width: 200px;
+    width: 1200px;
     height: 200px;
   }
 }
@@ -807,4 +820,4 @@ footersection*/
   .resume-output {
     animation: fadeIn 0.5s ease-in;
   }
-}
+
