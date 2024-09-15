@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generate Your Resume</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="index.html" id="navbar__logo">My Portfolio</a>
-            <ul class="navbar__menu">
-                <li class="navbar__item"><a href="index.html#about" class="navbar__links">About</a></li>
-                <li class="navbar__item"><a href="index.html#skills" class="navbar__links">Skills</a></li>
-                <li class="navbar__item"><a href="index.html#portfolio" class="navbar__links">Portfolio</a></li>
-            </ul>
-        </div>
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">My Portfolio</a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html#about" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="index.html#skills" class="navbar__links">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a href="index.html#portfolio" class="navbar__links">Portfolio</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="service-page" id="generate-resume">
-        <div class="main__container">
-            <h1>Generate Your Resume Now</h1>
-            <form id="resumeForm">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+      <div class="main__container">
+        <h1>Generate Your Resume Now</h1>
+        <form id="resumeForm">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-                <label for="about">About:</label>
-                <textarea id="about" name="about" rows="4" required></textarea>
+          <label for="about">About:</label>
+          <textarea id="about" name="about" rows="4" required></textarea>
 
-                <label for="skills">Skills:</label>
-                <input type="text" id="skills" name="skills" placeholder="e.g. HTML, CSS, JavaScript" required>
-<label for="experience">Experience:</label>
-                <input type="text" id="experience" name="experience" placeholder="e.g. itle(2012-2017)" required>
+          <label for="skills">Skills:</label>
+          <input
+            type="text"
+            id="skills"
+            name="skills"
+            placeholder="e.g. HTML, CSS, JavaScript"
+            required
+          />
 
-                <label for="portfolio">Portfolio Link (Optional):</label>
-                <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com">
+          <label for="experience">Experience:</label>
+          <input
+            type="text"
+            id="experience"
+            name="experience"
+            placeholder="e.g. Job Title (2012-2017)"
+            required
+          />
 
-                <button type="button" id="generateResumeBtn" > <a href="display-resume.html">Generate Resume </a></button>
-            </form>
+          <label for="portfolio">Portfolio Link (Optional):</label>
+          <input
+            type="url"
+            id="portfolio"
+            name="portfolio"
+            placeholder="https://yourportfolio.com"
+          />
+
+          <button type="button" id="generate-resume-btn">
+            Generate Resume
+          </button>
+        </form>
+
+        <div id="resume-output" class="resume-output" style="display: none">
+          <h2>Your Generated Resume</h2>
+          <div id="resume-content"></div>
+          <br />
+          <button id="edit-resume-btn" style="display: none">
+            Edit Resume
+          </button>
         </div>
+      </div>
     </div>
-<footer class="footer">
-        <div class="footer__info">
-            <p>&copy; 2024 Maryam Hussain | All rights reserved.</p>
-        </div>
+
+    <footer class="footer">
+      <div class="footer__info">
+        <p>&copy; 2024 Maryam Hussain | All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="resume.js"></script>
-</body>
+  </body>
 </html>
